@@ -1,7 +1,7 @@
 import SocialMediaIcons from "../components/SocialMediaIcons";
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
-import resume from "../assets/Muhammad_Abrar.pdf";
+import resume from "../assets/Muhammad-Abrar.pdf";
 import image from "../assets/portfolio-im.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
@@ -84,7 +84,7 @@ const Landing = ({ setSelectedPage }) => {
           </AnchorLink>
           <a
       href={resume}
-      download="Muhammad_Abrar.pdf"
+      download="Muhammad-Abrar.pdf"
       className="rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5"
     >
       <div className="bg-deep-blue hover:text-red transition duration-500 w-full h-full flex items-center justify-center px-10 font-playfair">
